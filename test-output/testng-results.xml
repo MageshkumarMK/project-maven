@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19570" started-at="2021-11-30T14:25:39Z" finished-at="2021-11-30T14:25:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19570" started-at="2021-11-30T14:25:39Z" finished-at="2021-11-30T14:25:59Z">
+      <class name="com.maven.Runner_ClassTestNG">
+        <test-method status="PASS" signature="logger()[pri:0, instance:com.maven.Runner_ClassTestNG@55c53a33]" name="logger" duration-ms="101" started-at="2021-11-30T19:55:39Z" finished-at="2021-11-30T19:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logger -->
+        <test-method status="PASS" signature="url(java.lang.String)[pri:1, instance:com.maven.Runner_ClassTestNG@55c53a33]" name="url" duration-ms="4328" started-at="2021-11-30T19:55:39Z" data-provider="URL" finished-at="2021-11-30T19:55:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:2, instance:com.maven.Runner_ClassTestNG@55c53a33]" name="login" duration-ms="3394" started-at="2021-11-30T19:55:43Z" finished-at="2021-11-30T19:55:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mahesh115]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="booking_Page()[pri:3, instance:com.maven.Runner_ClassTestNG@55c53a33]" name="booking_Page" duration-ms="2396" started-at="2021-11-30T19:55:47Z" finished-at="2021-11-30T19:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booking_Page -->
+        <test-method status="PASS" signature="payment_Page()[pri:4, instance:com.maven.Runner_ClassTestNG@55c53a33]" name="payment_Page" duration-ms="9269" started-at="2021-11-30T19:55:49Z" finished-at="2021-11-30T19:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment_Page -->
+      </class> <!-- com.maven.Runner_ClassTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
